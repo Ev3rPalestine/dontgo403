@@ -106,7 +106,7 @@ Parse request from Burp:
 
 Use custom header + specific IP address for bypasses:
 ```bash
-./dontgo403 -u https://domain.com/admin -H "Environment: Staging" -b 8.8.8.8
+./dontgo403 -u https://domain.com/admin -H "Environment: Staging" -i 8.8.8.8
 ```
 
 Set new max of goroutines + add delay between requests:
