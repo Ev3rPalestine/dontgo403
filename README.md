@@ -41,7 +41,7 @@ Flags:
   -p, --proxy string          Proxy URL. For example: http://127.0.0.1:8080
   -r, --request-file string   Path to request file to load flags from
   -u, --uri string            Target URL
-  -a, --useragent string      Set the User-Agent string (default 'dontgo403')
+  -a, --useragent string      Set the User-Agent string (default 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36')
   -v, --verbose               Set verbose mode ON (default OFF)
 ```
 
@@ -64,7 +64,7 @@ Output example:
 	
 Target: 		        https://domain.com/admin
 Headers: 		        false
-User Agent: 		        dontgo403
+User Agent: 		        Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
 Proxy: 			        false
 Method: 		        GET
 Payloads folder:                payloads
