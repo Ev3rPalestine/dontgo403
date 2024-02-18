@@ -89,7 +89,7 @@ func init() {
 	rootCmd.PersistentFlags().StringVarP(&proxy, "proxy", "p", "", "Proxy URL. For example: http://127.0.0.1:8080")
 	rootCmd.PersistentFlags().StringVarP(&requestFile, "request-file", "r", "", "Path to request file to load flags from")
 	rootCmd.PersistentFlags().StringVarP(&uri, "uri", "u", "", "Target URL")
-	rootCmd.PersistentFlags().StringVarP(&useragent, "useragent", "a", "", "Set the User-Agent string (default 'dontgo403')")
+	rootCmd.PersistentFlags().StringVarP(&useragent, "useragent", "a", "", "Set the User-Agent string (default 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36')")
 	rootCmd.PersistentFlags().BoolVarP(&verbose, "verbose", "v", false, "Set verbose mode ON (default OFF)")
 }
 
