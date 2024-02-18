@@ -434,7 +434,7 @@ func requester(uri string, proxy string, userAgent string, reqHeaders []string, 
 	}
 	// Set User-Agent header.
 	if len(userAgent) == 0 {
-		userAgent = "dontgo403"
+		userAgent = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
 	}
 	// Set default request method to GET.
 	if len(method) == 0 {
